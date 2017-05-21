@@ -1,0 +1,80 @@
+/*merriweather 300 font
+oswald font
+http://www.dafont.com/delius.font*/
+
+clearfix {
+  clear: both;
+}
+
+body {
+  margin: 0 150px;
+
+}
+header {
+  height: 100px;
+
+}
+
+header div {
+  width: 960;
+}
+
+section {
+  width: 960px;
+}
+
+.icons {
+  float: right;
+  margin-right: 20px;
+}
+
+
+li {
+  display: inline-block;
+  margin-right: -2px;
+}
+
+.deli {
+  margin-left: 40px;
+  margin-top: -40px;
+  font-size: 32pt;
+  font-family: 'Yellowtail', cursive;
+}
+
+.heading {
+  margin-left: 30px;
+}
+
+.inside_head {
+  width: 960px;
+  margin: 0 30px;
+}
+.bar {
+  width: 960px;
+  height: 10px;
+  background: black;
+}
+
+p {
+  /*font-family: 'Merriweather', serif;*/
+}
+
+.choco_p {
+  margin-top: 40px;
+  font-size: 45pt;
+  font-family: 'Oswald';
+}
+
+.pizza {
+  width: 960px;
+}
+
+.list {
+  position: relative;
+}
+
+.recipe {
+  font-family: Delius;
+  position: absolute;
+  margin-bottom: 30px;
+}
