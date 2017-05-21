@@ -12,10 +12,7 @@ body {
 }
 header {
   height: 100px;
-
-}
-li:nth-child(7) {
-  margin-left: 3px;
+  margin-top: 30px;
 }
 
 header div {
@@ -38,7 +35,7 @@ li {
 }
 
 .deli {
-  margin-left: 40px;
+  margin-left: 15px;
   margin-top: -49px;
   font-size: 32pt;
   font-family: 'Yellowtail', cursive;
@@ -46,7 +43,7 @@ li {
 
 .under_logo {
   color: #bdb8be;
-  margin-left: 45px;
+  margin-left: 25px;
   font-size: 8pt;
 
 }
@@ -82,6 +79,7 @@ p {
   margin-bottom: 10px;
   font-size: 35pt;
   font-family: 'Oswald';
+  font-weight: bold;
 }
 
 
