@@ -1,10 +1,9 @@
-/*merriweather 300 font
-oswald font
-http://www.dafont.com/delius.font*/
+/*global*/
 
 clearfix {
   clear: both;
 }
+/*header section*/
 
 body {
   margin: 0 150px;
@@ -27,9 +26,11 @@ section {
   float: right;
   margin-right: 20px;
 }
+ul li:nth-child(6) {
+  margin-right: 9px;
+}
 
-
-li {
+header ul li {
   display: inline-block;
   margin-top: 10px;
 }
@@ -43,18 +44,22 @@ li {
 
 .under_logo {
   color: #bdb8be;
-  margin-left: 25px;
+  margin-top: -10px;
+  margin-left: -10px;
   font-size: 8pt;
 
 }
 
 .grey {
-  color: #bdb8be
+  color: #bdb8be;
+  font-size: 10pt;
 }
 
 .grey_print {
   color: #bdb8be;
   float: right;
+  font-size: 10pt;
+  font-weight: lighter;
 }
 
 .heading {
@@ -70,9 +75,7 @@ li {
   background: black;
 }
 
-p {
-  /*font-family: 'Merriweather', serif;*/
-}
+/*body section*/
 
 .choco_p {
   margin-top: 40px;
@@ -82,18 +85,135 @@ p {
   font-weight: bold;
 }
 
-
 .pizza {
   width: 960px;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 13pt;
+  line-height: 25px;
+  text-indent: 29px;
+  color: grey;
+  padding-bottom: 20px;
+}
+
+/*Ingrendients*/
 
 .list {
   position: relative;
 }
 
-.recipe {
+/*.recipe {
+  font-size: 13pt;
   font-family: Delius;
+  color: grey;
   position: absolute;
-  margin-bottom: 30px;
+  top: 1350px;
+}*/
+
+.cross {
+  text-decoration: line-through;
+}
+
+section ul li {
+  font-family: Delius;
+  margin-bottom: 12px;
+  /*font-size: 13pt;
+  font-family: Delius;
+  color: grey;
+  position: absolute;
+  top: 1350px;
+
+  float: left;*/
+}
+section ul li  {
+  /*font-size: 13pt;
+  font-family: Delius;
+  color: grey;
+  position: absolute;
+  top: 1350px;
+  float: right;*/
+
+}
+
+.first {
+  margin-left: 50px;
+  font-size: 16pt;
+  font-family: Delius;
+  color: grey;
+  position: absolute;
+  top: 1325px;
+  float: right;
+
+}
+.second {
+  margin-left: 400px;
+  font-size: 16pt;
+  font-family: Delius;
+  color: grey;
+  position: absolute;
+  top: 1325px;
+  float: left;
+}
+
+/*Review Section*/
+
+.bar2 {
+  width: 960px;
+  height: 10px;
+  background: black;
+  margin-top: 40px;
+}
+
+.van {
+  margin-left: 15px;
+  margin-top: -20px;
+  font-size: 32pt;
+}
+
+.comment {
+  font-size: 18pt;
+  margin-left: 62px;
+  margin-top: -40px;
+  position: absolute;
+}
+
+h4 {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.share {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #BA745C;
+}
+
+/*Footer*/
+
+.bar3 {
+  margin-top: 100px;
+  width: 960px;
+  height: 1px;
+  background: black;
+  position: relative;
+}
+
+.foot_logo {
+  position: absolute;
+  margin-left: 480px;
+}
+.end_text {
+  margin-top: 10px;
+  margin-left: 380px;
+  font-size: 8pt;
 }
