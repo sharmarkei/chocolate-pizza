@@ -106,14 +106,6 @@ p {
   position: relative;
 }
 
-/*.recipe {
-  font-size: 13pt;
-  font-family: Delius;
-  color: grey;
-  position: absolute;
-  top: 1350px;
-}*/
-
 .cross {
   text-decoration: line-through;
 }
@@ -121,21 +113,6 @@ p {
 section ul li {
   font-family: Delius;
   margin-bottom: 12px;
-  /*font-size: 13pt;
-  font-family: Delius;
-  color: grey;
-  position: absolute;
-  top: 1350px;
-
-  float: left;*/
-}
-section ul li  {
-  /*font-size: 13pt;
-  font-family: Delius;
-  color: grey;
-  position: absolute;
-  top: 1350px;
-  float: right;*/
 
 }
 
@@ -194,7 +171,8 @@ h4 {
   height: 30px;
   float: right;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
+  color: white;
   background-color: #BA745C;
 }
 
