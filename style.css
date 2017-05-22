@@ -72,7 +72,7 @@ header ul li {
 .bar {
   width: 960px;
   height: 10px;
-  background: black;
+  background: silver;
 }
 
 /*body section*/
@@ -141,7 +141,7 @@ section ul li {
 .bar2 {
   width: 960px;
   height: 10px;
-  background: black;
+  background: silver;
   margin-top: 40px;
 }
 
@@ -194,7 +194,7 @@ h4 {
   margin-top: 100px;
   width: 480px;
   height: 1px;
-  background: grey;
+  background: silver;
   float:
 }
 
@@ -203,7 +203,7 @@ h4 {
   margin-top: 100px;
   width: 480px;
   height: 1px;
-  background: grey;
+  background: silver;
   float: right;
   margin-top: 0px;
 }
