@@ -44,8 +44,8 @@ header ul li {
 
 .under_logo {
   color: #bdb8be;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: 0px;
+  margin-left: 19px;
   font-size: 8pt;
 
 }
@@ -91,7 +91,7 @@ header ul li {
   margin-bottom: 30px;
 }
 
-p {
+.indent {
   font-family: 'Merriweather', serif;
   font-size: 13pt;
   line-height: 25px;
@@ -152,10 +152,19 @@ section ul li {
 }
 
 .comment {
+  width: 600px;
   font-size: 18pt;
-  margin-left: 62px;
+  margin-left: 73px;
   margin-top: -40px;
   position: absolute;
+}
+.quote {
+  margin-left: 15px;
+  font-family: 'Merriweather', serif;
+  font-size: 13pt;
+  line-height: 25px;
+  color: grey;
+  padding-bottom: 20px;
 }
 
 h4 {
@@ -167,9 +176,11 @@ h4 {
 
 .share {
   position: relative;
+  margin-left: 700px;
+  margin-top: -40px;
   width: 200px;
   height: 30px;
-  float: right;
+  /*float: right;*/
   text-align: center;
   padding-top: 15px;
   color: white;
@@ -179,19 +190,36 @@ h4 {
 /*Footer*/
 
 .bar3 {
-  margin-top: 100px;
-  width: 960px;
-  height: 1px;
-  background: black;
   position: relative;
+  margin-top: 100px;
+  width: 480px;
+  height: 1px;
+  background: grey;
+  float:
+}
+
+.bar4 {
+  position: relative;
+  margin-top: 100px;
+  width: 480px;
+  height: 1px;
+  background: grey;
+  float: right;
+  margin-top: 0px;
 }
 
 .foot_logo {
   position: absolute;
   margin-left: 480px;
+  margin-top: -15px;
+
 }
 .end_text {
-  margin-top: 10px;
-  margin-left: 380px;
+  margin-top: -5px;
+  margin-left: 360px;
   font-size: 8pt;
+}
+
+.ending {
+  padding-bottom: 40px;
 }
