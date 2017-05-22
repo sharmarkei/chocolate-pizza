@@ -1,0 +1,225 @@
+/*global*/
+
+clearfix {
+  clear: both;
+}
+/*header section*/
+
+body {
+  margin: 0 150px;
+
+}
+header {
+  height: 100px;
+  margin-top: 30px;
+}
+
+header div {
+  width: 960;
+}
+
+section {
+  width: 960px;
+}
+
+.icons {
+  float: right;
+  margin-right: 20px;
+}
+ul li:nth-child(6) {
+  margin-right: 9px;
+}
+
+header ul li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.deli {
+  margin-left: 15px;
+  margin-top: -49px;
+  font-size: 32pt;
+  font-family: 'Yellowtail', cursive;
+}
+
+.under_logo {
+  color: #bdb8be;
+  margin-top: 0px;
+  margin-left: 19px;
+  font-size: 8pt;
+
+}
+
+.grey {
+  color: #bdb8be;
+  font-size: 10pt;
+}
+
+.grey_print {
+  color: #bdb8be;
+  float: right;
+  font-size: 10pt;
+  font-weight: lighter;
+}
+
+.heading {
+  margin-left: 30px;
+}
+
+.inside_head {
+  width: 960px;
+}
+.bar {
+  width: 960px;
+  height: 10px;
+  background: silver;
+}
+
+/*body section*/
+
+.choco_p {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 35pt;
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+.pizza {
+  width: 960px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.indent {
+  font-family: 'Merriweather', serif;
+  font-size: 13pt;
+  line-height: 25px;
+  text-indent: 29px;
+  color: grey;
+  padding-bottom: 20px;
+}
+
+/*Ingrendients*/
+
+.list {
+  position: relative;
+}
+
+.cross {
+  text-decoration: line-through;
+}
+
+section ul li {
+  font-family: Delius;
+  margin-bottom: 12px;
+
+}
+
+.first {
+  margin-left: 50px;
+  font-size: 16pt;
+  font-family: Delius;
+  color: grey;
+  position: absolute;
+  top: 1325px;
+  float: right;
+
+}
+.second {
+  margin-left: 400px;
+  font-size: 16pt;
+  font-family: Delius;
+  color: grey;
+  position: absolute;
+  top: 1325px;
+  float: left;
+}
+
+/*Review Section*/
+
+.bar2 {
+  width: 960px;
+  height: 10px;
+  background: silver;
+  margin-top: 40px;
+}
+
+.van {
+  margin-left: 15px;
+  margin-top: -20px;
+  font-size: 32pt;
+}
+
+.comment {
+  width: 600px;
+  font-size: 18pt;
+  margin-left: 73px;
+  margin-top: -40px;
+  position: absolute;
+}
+.quote {
+  margin-left: 15px;
+  font-family: 'Merriweather', serif;
+  font-size: 13pt;
+  line-height: 25px;
+  color: grey;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.share {
+  position: relative;
+  margin-left: 700px;
+  margin-top: -40px;
+  width: 200px;
+  height: 30px;
+  /*float: right;*/
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  background-color: #BA745C;
+}
+
+/*Footer*/
+
+.bar3 {
+  position: relative;
+  margin-top: 100px;
+  width: 480px;
+  height: 1px;
+  background: silver;
+  float:
+}
+
+.bar4 {
+  position: relative;
+  margin-top: 100px;
+  width: 480px;
+  height: 1px;
+  background: silver;
+  float: right;
+  margin-top: 0px;
+}
+
+.foot_logo {
+  position: absolute;
+  margin-left: 480px;
+  margin-top: -15px;
+
+}
+.end_text {
+  margin-top: -5px;
+  margin-left: 360px;
+  font-size: 8pt;
+}
+
+.ending {
+  padding-bottom: 40px;
+}
